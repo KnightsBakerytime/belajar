@@ -36,7 +36,6 @@ int main(){
 
     Antrian* gabung = head;
 
-    cout << "Nilai linkend :" << endl;
     while(gabung != nullptr){
         cout << gabung->data << endl;
         gabung = gabung->next;
