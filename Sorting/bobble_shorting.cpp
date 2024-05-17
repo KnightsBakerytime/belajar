@@ -70,7 +70,7 @@ int main(){
 
     // logic sorting 
     // int* value = boobleSort(array,n);
-    int * value = selectionSort(array,n);
+    // int* value = selectionSort(array,n);
 
     auto end = chrono::high_resolution_clock::now();
     chrono::duration<float> duration = end - start;
